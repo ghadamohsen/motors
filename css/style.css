@@ -26,7 +26,6 @@ a{
 }
 .bord-left{
     border-left: 1px solid #cccc;
-    /* border-right: 1px solid #cccc; */
 }
 .social-media{
     margin-right: 25px;
@@ -113,7 +112,6 @@ a{
         display: none !important;
     }
     .top .nav-item .nav-link{
-
         padding: 0.5rem 1rem;
     }
 }
@@ -121,7 +119,6 @@ a{
 .home{
     background: url(../images/bg-car-1.png) no-repeat;
     background-size: cover;
-    /* background-position: left center; */
     height: 600px;
 }
 
@@ -180,7 +177,6 @@ a{
     .social-media{
         margin-right: 0;
     }
-
     .navbar-nav{
         padding-right: 0;
     }
@@ -240,7 +236,6 @@ a{
         margin: 0 5px !important;
         font-size: 15px !important;
     }
-
     .search-input {
         height: 44px;
     }
@@ -367,7 +362,7 @@ a{
  #hidden-div {
     display: none;
   }
-  @media(max-width:425px){
+@media(max-width:425px){
     .search-car form .row>div{
         margin-bottom: 10px;
     }
@@ -381,10 +376,10 @@ a{
     }
 }
   /* ============= Ads Modren cars================*/
-  .ads-section{
+.ads-section{
     background-image: linear-gradient(to bottom, #ffffff, #f8f8f8);
-  }
-  .show-more{
+}
+.show-more{
     width: 181px;
     height: 54px;
     padding: 15px 45px 16px 46px;
@@ -395,69 +390,69 @@ a{
     transition: all 0.5s;
     text-align: left;
     border-radius: 4px;
-  }
-  .btn-hover:hover{
+}
+.btn-hover:hover{
     background-color: #fff;
     color: #ee1a39 !important;
     border: 2px solid #ee1a39;
-  }
-  .card{
-      border: none !important;
-      position: relative;
-  }
-  .car-price{
+}
+.card{
+    border: none !important;
+    position: relative;
+}
+.car-price{
     color: #2ac74e;
-  }
-  .car-address , .car-date ,.car-details{
-      color:#a0a3a7;
-  }
-  .car-details{
-      border-top: 1px solid #dfe2e5;
-      padding-top: 10px;
-  }
-  .special-ad{
-      position: absolute;
-      background: #ee1a39;
-      color: #fff;
-      left: 5px;
-      padding: 5px 10px;
-      border-radius: 4px;
-  }
+}
+.car-address , .car-date ,.car-details{
+    color:#a0a3a7;
+}
+.car-details{
+    border-top: 1px solid #dfe2e5;
+    padding-top: 10px;
+}
+.special-ad{
+    position: absolute;
+    background: #ee1a39;
+    color: #fff;
+    left: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
 
-  @media(max-width:991px){
-      .car-details{
-          font-size: 11px;
-      }
-      .header-sec{
+@media(max-width:991px){
+    .car-details{
+        font-size: 11px;
+    }
+    .header-sec{
         width: 85% !important;
     }
-  }
-  @media(max-width:425px){
+}
+@media(max-width:425px){
     .header-sec{
       width: 100% !important;
       font-size: 20px;
       font-weight: bolder;
-  }
-  .show-more{
-    padding: 10px 12px !important;
-  }
- }
- @media(max-width:375px){
+    }
+    .show-more{
+        padding: 10px 12px !important;
+    }
+}
+@media(max-width:375px){
     .car-cards .header-sec{
         font-size: 19px;
     }
- }
- @media(max-width:320px){
+}
+@media(max-width:320px){
   .show-more{
     padding: 10px 4px !important;
   }
- }
- @media (min-width:1700px) {
-     .car-cards .card-img-top{
+}
+@media (min-width:1700px) {
+    .car-cards .card-img-top{
          height: 21rem;
-     }   
- }
- @media (max-width:1699px) and (min-width:992px) {
+    }   
+}
+@media (max-width:1699px) and (min-width:992px) {
     .car-cards .card-img-top{
         height: 12.5rem;
     }  
@@ -472,85 +467,83 @@ a{
         height: 17rem;
     }
 }
-  /* =========== end ads section============ */
-  /* =============cars brands================== */
-    .brand-link-img{
-        text-align: center;
-        outline: none;
-    }
-    .brand-link-img:hover{
-        color: #ee1a39 !important;
-        text-decoration: underline !important;
-    }
-    .brand-link-img:hover img{
-        transform: scale(1.2 , 1.2);
-    }
-    .brand-img{
-        width: 96px;
-        height: 96px;
-        margin: auto;
-        display: block;
-        transition: all 0.5s;
-    }
-    .brands .slick-slide , 
-    .showroom .slick-slide{
-        text-align: center;
-    }
-    .car-brands .container ,
-    .showroom .container{
-        position: relative;
-    }
-    .brands .slick-prev , 
-    .showroom .slick-prev ,
-    .recommendation .slick-prev{
-        width: 40px;
-        height: 40px;
-        background: #000;
-        top: 25px;
-        left: 14px;
-        border-radius: 4px;
-    }
-    .brands .slick-next,
-    .showroom .slick-next,
-    .recommendation .slick-next{
-        background: #000;
-        width: 40px;
-        height: 40px;
-        top: 25px;
-        left: 65px;
-        border-radius: 4px;
-    }
-    .contact-showroom{
-        text-align: right;
-        color: #000 !important;
-        font-weight: bold;
-    }
-    .contact-showroom img{
-        display: inline-block !important;
-    }
-    .slick-prev:before ,
-    .slick-next:before {
-        font-family: "Font Awesome 5 Free";
-        display: inline-block;
-        padding-right: 3px;
-        font-size: 16px;
-        vertical-align: middle;
-        font-weight: 600;
-    }
-    .slick-prev:before{
-        content: "\f053";
-    }
-    [dir='rtl'] .slick-prev:before
-    {
+/* =========== end ads section============ */
+/* =============cars brands================== */
+.brand-link-img{
+    text-align: center;
+    outline: none;
+}
+.brand-link-img:hover{
+    color: #ee1a39 !important;
+    text-decoration: underline !important;
+}
+.brand-link-img:hover img{
+    transform: scale(1.2 , 1.2);
+}
+.brand-img{
+    width: 96px;
+    height: 96px;
+    margin: auto;
+    display: block;
+    transition: all 0.5s;
+}
+.brands .slick-slide , 
+.showroom .slick-slide{
+    text-align: center;
+}
+.car-brands .container ,
+.showroom .container{
+    position: relative;
+}
+.brands .slick-prev , 
+.showroom .slick-prev ,
+.recommendation .slick-prev{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    top: 25px;
+    left: 14px;
+    border-radius: 4px;
+}
+.brands .slick-next,
+.showroom .slick-next,
+.recommendation .slick-next{
+    background: #000;
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    left: 65px;
+    border-radius: 4px;
+}
+.contact-showroom{
+    text-align: right;
+    color: #000 !important;
+    font-weight: bold;
+}
+.contact-showroom img{
+    display: inline-block !important;
+}
+.slick-prev:before ,
+.slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 3px;
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.slick-prev:before{
+    content: "\f053";
+}
+[dir='rtl'] .slick-prev:before{
     content: '\f054';
-    }
-    .slick-next:before{
-        content: "\f054" ;
-    }
-    [dir='rtl'] .slick-next:before
-    {
+}
+.slick-next:before{
+    content: "\f054" ;
+}
+[dir='rtl'] .slick-next:before{
     content: '\f053';
-    }
+}
 /* =============special-cars section ================== */
 .special-cars{
     background-image: url(../images/bg-car-2.png);
@@ -644,11 +637,11 @@ a{
 .carType .slick-prev{    
     top: 70%;
     left:-15px;
-  }
- .carType .slick-next{
+}
+.carType .slick-next{
     top: 70%;
     right:-15px;
-  }
+}
 .carType .slick-prev:before, 
 .carType .slick-next:before{
   color: #000;
@@ -835,18 +828,17 @@ footer form input{
     width: 40px;
     height: 40px;
     text-align: center;
-    /* border-radius: 4px; */
     position: fixed;
     bottom: 30px;
     left: 30px;
     transition: background-color .3s, 
-      opacity .5s, visibility .5s;
+                opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
     border-radius: 4px;
-  }
-  #button::after {
+}
+#button::after {
     content: "\f062";
     font-family: FontAwesome;
     font-weight: normal;
@@ -854,28 +846,28 @@ footer form input{
     font-size: 1.5em;
     line-height: 40px;
     color: #fff;
-  }
-  #button:hover {
+}
+#button:hover {
     cursor: pointer;
     background-color: #333;
-  }
-  #button:active {
+}
+#button:active {
     background-color: #555;
-  }
-  #button.show {
+}
+#button.show {
     opacity: 1;
     visibility: visible;
-  }
+}
   /* ====================================================== */
   /* ======================LOGIN PAGE ===================== */
   /* ====================================================== */
-  .login-page{
+.login-page{
     background: url(../images/login-bg.png) no-repeat;
     background-position: left;
     height: 95vh;
     display: flex;
     align-items: center;
-  }
+}
 .login-page img,
 .login-page .under-line{
     margin: auto;
@@ -928,7 +920,6 @@ footer form input{
     height: 5vh;
     display: flex;
     align-items: center;
-
 }
 .login-foot ul{
     text-align: right;
@@ -944,7 +935,7 @@ footer form input{
 }
 @media (min-width: 1400px){
     .login-page .container {
-          max-width: 85% !important; 
+        max-width: 85% !important; 
      }
 }
 @media (max-width:1024px) {
@@ -955,8 +946,8 @@ footer form input{
 @media (max-width:767px) {
     .login-page{
         background: none;
-      }
-      .div-input{
+    }
+    .div-input{
         width: 95%;
     }
 }
@@ -1018,18 +1009,16 @@ footer form input{
 .ads .list-view .car-date{
     margin-bottom: 2px;
 }
-
 .ads .card {
     margin-bottom: 1rem;
-  }
-
+}
 .ads .list-view .row > [class*=col-] {
     max-width: 100%;
     flex: 0 0 100%;
-  }
+}
 .ads .list-view .card {
     flex-direction: row;
-  }
+}
 .ads .list-view .card-img-top{
     height: 100%;
 }
@@ -1232,7 +1221,6 @@ footer form input{
     border-radius: 5px;
     padding: 10px 60px;
 }
-
 @media (max-width:991px) {
     .form-div{
         width: 60%;
@@ -1551,7 +1539,6 @@ img.deal-img{
         right: 21px
     }
 }
-
 /* ========add ad ================== */
 .page-head p{
     color: #707173;
